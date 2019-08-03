@@ -58,3 +58,5 @@ def get_faculties(name):
 
 
 
+if __name__ == "__main__":
+    app.run(port = 5000)
