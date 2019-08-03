@@ -32,7 +32,7 @@ def get_dept(name):
 
     
 
-@app.route('/dept/')
+@app.route('/dept')
 def get_depts():
     return json.jsonify(dept)
 
@@ -58,5 +58,3 @@ def get_faculties(name):
 
 
 
-if __name__ == "__main__":
-    app.run(port = 5000,debug=True)
